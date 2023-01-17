@@ -1,0 +1,41 @@
+.fourcards-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14rem;
+  
+  height: 40rem;
+}
+.main-payment-cardsbox {
+  width: 60%;
+  /* background-color: red; */
+}
+.text-payment-box {
+  width: 25%;
+ /* background-color: green; */
+ /* text-align:center ; */
+ padding: 2rem;
+ margin-top: 13rem;
+ padding-top: 3rem;
+}
+@media screen and (max-width:992px) {
+  .fourcards-main {
+    margin-top: 2rem;
+    padding: 0rem 1rem;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    height: fit-content;
+  }
+  .main-payment-cardsbox {
+    width: 100%;
+    /* padding: -1rem; */
+    /* background-color: red; */
+    order: 2;
+  }
+  .text-payment-box {
+    width: 100%;
+   padding: 1rem;
+   margin-top: 1rem;
+   padding-top: 2rem;
+   order:1;
+}
+}

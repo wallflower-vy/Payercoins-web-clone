@@ -1,0 +1,21 @@
+.footer-box{
+   background: #1D1E2C;
+   /* height: 70rem; */
+   margin-top: 10rem;
+}
+.footer-divider{
+    color:#fff;
+    margin-top: 10rem;
+}
+ @media screen and (max-width:992px) {
+    .footer-box{
+        background: #1D1E2C;
+        padding: 0rem 1rem;
+        /* height: 70rem; */
+        margin-top: 10rem;
+     }
+     .footer-divider{
+        color:#fff;
+        margin-top: 5rem;
+    }
+ }

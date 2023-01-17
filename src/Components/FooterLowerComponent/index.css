@@ -1,0 +1,86 @@
+.footer-lower-box {
+  margin-top: 5rem;
+}
+.footer-link-box {
+  /* display: flex; */
+  /* background-color: red; */
+  margin-top: 4rem;
+}
+.footer-link-box h1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+ 
+  color: #ffffff;
+}
+.footer-links{
+    font-family: 'Mulish';
+    display: block;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 46px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.footer-links:hover{
+    color:#fff;
+    opacity: .8;
+}
+.footer-link-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-link{
+    color:#2DCA73;
+}
+.footericon-links{
+    color:#fff;
+    font-size: 22px;
+    display: inline;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.footericon-links:hover{
+    color:#2DCA73;
+}
+.contact-footer{
+  margin-top: 5rem;
+}
+
+
+@media screen and (max-width:992px) {
+  .footer-lower-box {
+    margin-top: 3rem;
+    /* background-color: red; */
+    
+  }
+  .footer-link-box {
+    margin-top: 2rem;
+  }
+  .footer-link-boxs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+  .footer-link-box h1 {
+   
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .footer-links{
+    
+      display: block;
+  
+  font-size: 14px;
+  line-height: 46px;
+  
+  }
+  .contact-footer{
+    margin-top: 1rem;
+  }
+}

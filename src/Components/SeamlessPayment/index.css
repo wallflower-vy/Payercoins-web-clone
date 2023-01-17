@@ -1,0 +1,163 @@
+.seamlesspayment-box {
+  margin-top: 3rem;
+  padding: 3rem 0rem;
+}
+.seamless-box {
+  display: flex;
+}
+.seam-heading {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 75px;
+
+  display: flex;
+  align-items: center;
+
+  color: #1d1e2c;
+}
+.globe-box {
+  width: 60%;
+  
+}
+
+.simple-heading {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1d1e2c;
+}
+.simple-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+
+ 
+
+  display: flex;
+  align-items: center;
+
+  color: #7f8082;
+}
+.seam-text {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+
+  color: #1d1e2c;
+}
+.border-bottom {
+  height: 0.5rem;
+  width: 9rem;
+  background-color: #e9ffea;
+  margin-top: -1.5rem;
+
+  border: none;
+}
+.payment-option {
+  width: 35rem;
+ 
+}
+.payment-option p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  
+
+  display: flex;
+  align-items: center;
+
+  color: #7f8082;
+}
+.payment-checkbox p {
+  
+  display: inline-block;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+@media screen and (max-width:992px) {
+  .seamlesspayment-box {
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    /* background-color: red; */
+  }
+  .seamless-box {
+    
+    flex-direction: column;
+   
+  }
+  .simple-seamless-box{
+    
+    margin-top: -3rem !important;
+    
+  }
+  .seam-heading {
+   
+    font-size: 1.2rem;
+    line-height: 30px;
+    display: flex;
+    align-items: left;
+  }
+  .globe{
+    width:100%
+  }
+  .globe-box {
+    width: 100%;
+  
+
+  }
+  
+  .simple-heading {
+   
+   
+    font-size: 20px;
+    
+    align-items: left;
+    
+  
+    
+  }
+  .simple-text {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  
+  .payment-option {
+    width: 23rem;
+   
+  }
+  .payment-checkbox  {
+   
+    margin-top: -1rem;
+   
+  }
+  .payment-checkbox p{
+    margin-bottom: -1.5rem;
+  }
+  
+  .payment-option p {
+   
+    font-size: 14px;
+    
+    line-height: 40px;
+   
+  
+  
+  }
+}

@@ -1,0 +1,140 @@
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.5rem .5rem;
+  ;
+}
+.logo-box {
+  width: 30%;
+}
+#main-item-box{
+  /* background-color: orange; */
+  display: flex;
+  width:100%
+}
+.nav-item-btn{
+  width:30%;
+}
+.nav-item-box {
+ /* background-color: green; */
+ width:70%
+}
+.nav-links {
+  padding: 1.5rem;
+  text-decoration: none;
+  color: #7f8082;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   line-height: 28px;
+   transition: 0.3s ease-in-out;
+}
+.nav-links:hover{
+    color: #7f8082;
+}
+.nav-btn1 {
+  padding: 2rem;
+  text-decoration: none;
+  color: #48D189;
+  font-style: normal;
+  font-weight: 900;
+  font-family: 'Mulish', sans-serif;
+font-size: 14px;
+    line-height: 24px;
+}
+.nav-btn1:hover{
+    color:#48D189;
+}
+.nav-btn2 {
+  padding: 1rem 1.8rem;
+  text-decoration: none;
+  font-style: normal;
+  font-family: 'Mulish', sans-serif;
+  color:#fff;
+  font-size: 14px;
+  background-color: #48D189;
+  border-radius: 4px;
+}
+.nav-btn2:hover{
+    color:#48D189;
+    background-color: transparent;
+    border:1px solid #48D189
+}
+.menu-icon{
+  color:#48D189;
+  font-size: 20px;
+  cursor: pointer;
+}
+.mobile{
+  display: none;
+}
+
+ /* media query */
+ @media screen  and (max-width:992px){
+  .navigation-bar {
+    /* background-color: red; */
+    padding: 2rem .5rem;
+  }
+  .logo-box {
+    width: 30%;
+    /* background-color: blue; */
+  }
+  #main-item-box{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    width:300px;
+    position: fixed;
+    border-radius: 20px;
+     border: 1px solid rgba(255, 255, 255, .25);
+  
+  backdrop-filter: blur(15px);
+    top:60px;
+    right: -300px;
+    z-index: 10000;
+    height: 100vh;
+   transition: 1s ease-in-out;
+  }
+  #main-item-box.active{
+    right: 0px;
+    
+    
+   
+  }
+  .mobile{
+    display: block;
+  }
+  .nav-item-btn{
+    /* background-color: purple; */
+    width: 100%;
+  }
+  .nav-btn1, .nav-btn2{
+    display: block;
+  }
+  .nav-btn2{
+    text-align: center;
+    width:80%;
+    margin-left: 2rem;
+  }
+  .nav-item-box {
+    /* background-color: green; */
+    width:100%
+   }
+   .nav-links{
+    display: block;
+   }
+  
+ }
+ 
+ @media screen  and (min-width:993px) and (max-width:1430px){
+  
+  .logo-box {
+    width: 20%;
+   
+  }
+  
+ 
+  
+ }

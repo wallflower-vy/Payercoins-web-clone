@@ -1,0 +1,85 @@
+.home-banner-box{
+  background-image: url(../../Images/Vector\ \(16\).png);
+  background-color: #FCFBF7;
+  width:100%;
+  height: 1000px !important;
+  overflow: hidden;
+    
+}
+.banner-box{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 9rem;
+  margin-top: 2rem;
+  /* background-color: red; */
+  /* height: 5rem; */
+  width: 100%;
+}
+.left-banner-box{
+  padding-top: 1.5rem;
+  /* background-color: blue; */
+  width: 40%;
+  
+}
+.right-banner-box{
+  /* background-color: green; */
+  display: flex;
+ 
+}
+@media screen and (max-width:992px) {
+  .home-banner-box{
+    height: 700px !important;
+      
+  }
+  .banner-box{
+    flex-flow: column;
+    padding-left: 1rem;
+    margin-top: 0rem;
+    
+  }
+  .left-banner-box{
+    padding:1rem;
+    /* background-color: blue; */
+    width: 100%;
+    
+  }
+  
+}
+@media screen  and (min-width:601px) and (max-width:950px){
+  .home-banner-box{
+    background-image: url(../../Images/Vector\ \(16\).png);
+    background-color: #FCFBF7;
+   
+    width:100%;
+    height: 1300px !important;
+    overflow: hidden;
+      
+  }
+  .right-banner-box{
+    
+    width: 90%;
+    margin-top: 3rem;
+  
+  }
+}
+
+@media screen  and (min-width:993px) and (max-width:1430px){
+  
+  .banner-box{
+   
+    padding-left: 5rem;
+    
+  }
+  .left-banner-box{
+  
+    width: 45%;
+    
+  }
+  .right-banner-box{
+    
+   
+    width: 55%;
+   
+  }
+  
+ }

@@ -1,0 +1,119 @@
+.vector-image{
+    background-image: url(../../Images/Vector9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.pay-card-box{
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 350px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    transition: transform 250ms;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.pay-card-box:hover{
+    transform:scale(1.02);
+    background-color: #3AB75E;
+    color:#fff !important;
+}
+.paycard-heading{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 75px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #1D1E2C;
+}
+.paycard-paragraph{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+/* font-weight: 400; */
+font-size: 16px;
+line-height: 23px;
+/* or 192% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #7F8082;
+}
+.card-img-box{
+    width:5rem;
+    height: 5rem;
+    background: #FEFEFE;
+    
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    /* display: flex; */
+    /* justify-content: center; */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.payment-background-box{
+    /* background-color: blue; */
+    display: grid;
+    display: grid;
+    grid: auto auto / auto auto ;
+    grid-gap: 10px;
+   padding-top: 2rem;
+   padding-left:2rem;
+}
+@media screen and (max-width:992px) {
+    .vector-image{
+        background-image: none;
+    }
+    .pay-card-box{
+        margin-left: -2rem;
+        padding: .5rem;
+        width: 370px;
+        height: 280px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    .paycard-heading{
+    font-size: 14px;
+    }
+    .paycard-paragraph{
+    font-size: 14px;
+    line-height: 23px;
+    color: #7F8082;
+    }
+    .card-img-box{
+        width:4rem;
+        height: 4rem;
+        background: #FEFEFE;
+       
+    }
+    .payment-background-box{
+        /* background-color: blue; */
+        display: flex;
+       flex-direction: column;
+       padding-top: 2rem;
+       padding-left:2rem;
+       
+    }
+    .pay-card-box:hover{
+        transform:scale(1);
+        background-color: #3AB75E;
+        color:#fff !important;
+    }
+}

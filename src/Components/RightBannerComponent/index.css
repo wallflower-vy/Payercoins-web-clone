@@ -1,0 +1,14 @@
+.banner-img{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .right-banner-imgbox{
+        display: none;
+    }
+
+}
+/* @media screen and (max-width:1280px) {
+    .banner-img{
+        width: 100%;
+    }
+} */

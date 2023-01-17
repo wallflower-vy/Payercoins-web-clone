@@ -1,0 +1,44 @@
+.right-settle-box{
+    /* background-color: blue; */
+    width:80%;
+}
+.settlement-heading{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+
+
+
+color: #1D1E2C;
+}
+.settlement-text{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+color: #7F8082;
+
+}
+@media screen and (max-width:992px) {
+    .right-settle-box{
+        
+        width:100%;
+    }
+    .settlement-heading{
+    line-height: 35px;
+    font-size: 20px;
+    margin-top: -1rem;
+    
+    }
+    .settlement-text{
+        
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    
+    }
+}

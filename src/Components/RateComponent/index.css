@@ -1,0 +1,115 @@
+.rate-box {
+  background-color: #fff;
+  box-shadow: 0px 10px 5px 0px rgb(235, 235, 240);
+  height: 9rem;
+  width: 100%;
+  
+}
+.main-rate-box{
+  /* background-color: brown; */
+  transform: translateY(-50%);
+  width:(calc(250px *4));
+  padding-top:3rem;
+  display: flex;
+  margin-top: 1rem;
+  animation: scroll 40s linear infinite;
+  
+
+  
+}
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px *2));
+  }
+  
+}
+.carosel{
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.mini-rate-box {
+  
+  display: flex;
+  align-items: center;
+  width: 15%;
+  height: 3rem;
+  border-right: 1px solid lightgrey;
+}
+.last{
+    border: none !important;
+}
+.min-rate-box {
+    display: block !important;
+    
+    padding:0rem 1rem 1rem 1rem;
+    width:15%;
+    
+    height: 3rem;
+    border-right: 1px solid lightgrey;
+}
+.flag {
+  margin-right: 1rem;
+  font-size: 18px;
+}
+.nigeria {
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.text-span{
+    color:#48d189;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+    margin-top: -1rem;
+}
+.rate{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+    color:#6A6C75
+    /* margin-top: -1rem; */
+}
+
+@media screen and (max-width:992px){
+  .rate-box {
+    background-color: #fff;
+    /* background-color: red; */
+    box-shadow: 0px 10px 5px 0px rgb(235, 235, 240);
+    height: 7rem;
+    width: 100%;
+    
+  }
+  .main-rate-box{
+   
+    padding-top:2rem;
+    
+    
+  
+    
+  }
+  
+  .min-rate-box {
+    
+    
+      width:30%;
+      
+     
+  }
+  .mini-rate-box {
+  
+    
+    padding: 0rem .5rem;
+    width: 35%;
+    
+  }
+  
+ 
+  
+  
+}

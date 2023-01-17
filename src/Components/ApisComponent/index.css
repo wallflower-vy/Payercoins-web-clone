@@ -1,0 +1,98 @@
+.Api-box{
+    background-color:#fff;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.Api-border-bottom{
+    height: .5rem;
+    width:2.5rem;
+    background-color: #E9FFEA;
+    margin-top: -1.6rem;
+    
+    border: none;
+}
+.simple-api-box{
+    /* background-color: green; */
+    margin-top: -2rem;
+    height: fit-content;
+    width:90%;
+}
+.api-text{
+    font-size: 16px;
+  font-weight: 700;
+  font-family: "Mulish";
+  font-style: normal;
+}
+.apifee-box p{
+    margin-bottom: 2.5rem;
+    /* background-color: blue; */
+}
+.apicode-box{
+    /* background-color: red; */
+    margin-top: -9rem;
+}
+.api-btn{
+    border: 1.6px solid #1D1E2C;
+border-radius: 5px;
+padding:1rem 2.3rem;
+background-color: transparent;
+color: #1D1E2C;
+font-family: 'Mulish', sans-serif;
+font-weight: 800;
+transition: 0.5s;
+}
+.api-btn:hover{
+    transform: translateY(5s);
+}
+
+
+@media screen and (max-width:992px) {
+    .Api-box{
+      
+        /* background-color: green; */
+        margin-top: 1rem;
+        padding: 0rem 1rem;
+      
+    }
+    
+    .simple-api-box{
+        width:100%;
+    }
+    .api-text{
+        font-size: 14px;
+      
+    }
+    .apifee-box p{
+        margin-bottom: 2.5rem;
+        /* background-color: blue; */
+    }
+    .apicode-box{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .api-code{
+        width: 100%;
+    }
+    .api-btn{
+     
+    padding:1rem 2.2rem;
+  
+   
+    }
+    .api-btn:hover{
+        transform: translateY(5s);
+    }
+    
+}
+@media screen  and (min-width:993px) and (max-width:1430px){
+    .Api-box{
+        background-color:#fff;
+        
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+    }
+   
+    .api-code{
+        width: 95%;
+    }
+}

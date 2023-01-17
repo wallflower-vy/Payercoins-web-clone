@@ -1,0 +1,26 @@
+.charges-box{
+    /* background-color: red; */
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+@media screen and (max-width:992px){
+    .charges-box{
+        /* background-color: red; */
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        /* padding: 0rem 1rem; */
+    }
+    .offering-box{
+        width:100%;
+        /* background-color: blue; */
+        order: 2;
+    }
+    .offering{
+        width: 100%;
+    }
+    .charges-offering{
+        /* background-color: aqua; */
+        order: 1;
+        /* width:110%; */
+    }
+}

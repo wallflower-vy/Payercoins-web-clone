@@ -1,0 +1,118 @@
+.home-cards-box {
+  /* background-color: red; */
+  display: flex;
+  /* height: 20rem; */
+}
+.home-card {
+    width: 380px;
+    height: 380px;
+  padding-top: 2rem ;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  margin:2rem;
+  transition: transform 300ms;
+  cursor: pointer;
+ 
+  background: #FFFFFF;
+border-radius: 8px;
+}
+.home-card:hover{
+    transform:scale(1.05);
+    background-color: #3AB75E;
+    color:#fff !important;
+}
+
+.cards-heading{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #1D1E2C;
+}
+.cards-paragraph{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 32px;
+/* or 229% */
+display: flex;
+align-items: center;
+color: #7F8082;
+}
+.cards-link{
+    font-family: 'Mulish';
+font-size: 18px;
+font-weight: 700;
+line-height: 32px;
+text-decoration: none;
+/* identical to box height, or 229% */
+
+display: flex;
+align-items: center;
+
+color: #3AB75E;
+}
+.cards-link:hover{
+    color:#fff;
+}
+.card-icon{
+    color:#1D1E2C !important;
+    font-size: 24px;
+    margin-left: .7rem !important;
+}
+
+@media screen and (max-width:992px) {
+    .home-cards-box {
+        /* background-color: red; */
+        padding: -2rem !important;
+        
+        flex-direction: column;
+       
+        /* height: 20rem; */
+      }
+      .home-card {
+          width: 360px;
+          height: 280px;
+          padding: .6rem 1rem 0rem 1rem;
+          margin-left: .5rem !important;
+          margin-bottom: -.5rem;
+         
+      }
+    .cards-heading{
+    
+    font-size: 14px;
+    line-height: 25px;
+    
+    }
+    .cards-paragraph{
+        
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 0;
+    /* or 229% */
+    
+    }
+    .cards-link{
+        font-family: 'Mulish';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: none;
+    /* identical to box height, or 229% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #3AB75E;
+    }
+    .home-card:hover{
+        transform:scale(1);
+        
+    }
+    
+}
